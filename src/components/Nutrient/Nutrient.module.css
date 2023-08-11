@@ -1,0 +1,19 @@
+.wrapper{
+    margin: 5px 0;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.wrapper:hover{
+    background: #ebcdba;
+}
+
+.nutrientTitle {
+    font-weight: bold;
+}
+
+.nutrientPercentage {
+    font-style: italic;
+    float: right;
+}

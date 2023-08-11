@@ -1,0 +1,17 @@
+.mainTxt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper{
+    font-size: 16px;
+    padding: 20px 0px;
+}
+
+.centerText{
+    font-weight: 600;
+}
+
+.step{
+    border-bottom: 1px solid #e4ebce;
+}

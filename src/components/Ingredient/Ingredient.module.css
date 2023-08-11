@@ -1,0 +1,33 @@
+.ingredientBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    text-align: center;
+    margin: 1% 2%;
+    padding: 1%;
+    border: 1px solid black;
+    box-shadow: 2px 2px 3px grey;
+    border-radius: 5px;
+    background: #ebb66c;
+}
+
+.ingredientTitle {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color:black
+}
+
+.ingredientImage {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    background-image: url("https://img.freepik.com/fotos-premium/vista-superior-fondo-textura-mesa-madera-vieja-oscura_313215-6188.jpg");
+}

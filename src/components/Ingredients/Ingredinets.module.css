@@ -1,0 +1,18 @@
+
+.totalProducts{
+    padding: 10px 0;
+    text-align: center;
+    background: grey;
+    border: 1px solid black;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-shadow: 2px 2px black;
+
+}
+
+.wf{
+    text-decoration: underline;
+}

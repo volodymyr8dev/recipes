@@ -1,0 +1,93 @@
+.ingredientBlock {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    border-radius: 30px;
+    background: white;
+    opacity: 0.9;
+    transition: 1s;
+}
+
+.ingredientBlock:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
+.p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.wrapper{
+    width: 100%;
+    padding: 95px 20% 0 20%;
+    background-image: url("https://previews.123rf.com/images/9dreamstudio/9dreamstudio1709/9dreamstudio170901994/86079532-spicy-food-cooking-with-spices-and-dry-herbs-on-white-kitchen-desk-background-top-view-mock-up.jpg");
+}
+
+.rowMain{
+    display: flex;
+}
+
+.instruction{
+    font-size: 18px;
+}
+
+.img{
+    width: 400px;
+    margin: 0 0 15px 15px;
+    border-radius: 25%;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+.stepByStep{
+    background: white;
+    opacity: 0.8;
+    transition: 1s;
+}
+
+.stepByStep:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
+.stepTitle{
+    padding: 30px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+p{
+    margin: 0 10px;
+}
+
+.p1{
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.p2{
+    color: grey;
+    font-size: 18px;
+}
+
+.html{
+    font-size: 18px;
+}
+
+.Ad{
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: underline;
+}

@@ -1,0 +1,120 @@
+.text{
+    font-size: 20px;
+    color:#eba35d;
+    text-decoration: underline;
+    font-weight: 700;
+    margin: 0 10px;
+}
+
+.headerContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    z-index: 1;
+    transition: transform 0.5s ease-in-out;
+    background: black;
+    opacity: 0.7;
+}
+
+.hidden{
+    transform: translateY(-100%);
+
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.logoImg {
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+
+}
+
+.link {
+    position: absolute;
+    left: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.basketImg{
+    width: 50px;
+    height: 50px;
+    background: black;
+    border-radius: 30px;
+}
+
+.basketBlock{
+    position: absolute;
+    left: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+.cart {
+    overflow: hidden;
+    -webkit-transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    -ms-transition: height 0.5s;
+    -o-transition: height 0.5s;
+    transition: height 0.5s;
+}
+
+.show {
+    margin: 100px 0 0 0;
+    min-height: 300px;
+    overflow: auto;
+    max-height: 300px;
+    width: 200px;
+    background: #ebb66c;
+    border: 1px solid white;
+    -webkit-transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    -ms-transition: height 0.5s;
+    -o-transition: height 0.5s;
+    transition: 0.5s;
+    position: relative;
+    top: 150px;
+    left: -50%;
+    opacity: 0.8;
+
+}
+
+.show:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.btnSearchBlock{
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.btnSearch{
+    border: 1px solid black;
+    border-radius: 5px;
+    background: #ebb66c;
+    transition: 0.5s;
+}
+
+.btnSearch:hover{
+    background: white;
+    transition: 0.5s;
+}
+
+

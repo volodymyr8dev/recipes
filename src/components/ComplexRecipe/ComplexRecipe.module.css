@@ -1,0 +1,43 @@
+.recipeBlock{
+    margin: 20px;
+    width: 35%;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+.recipeTitle{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.blockImg{
+    padding: 10px;
+    width: 100%;
+}
+
+.ImgClock{
+    width: 30px;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+}
+
+.like{
+    width: 25px;
+}
+
+.liked{
+    width: 30px;
+}
+
+.likeBox{
+    padding: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+}
+

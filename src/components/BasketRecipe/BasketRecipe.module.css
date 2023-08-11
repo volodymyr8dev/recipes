@@ -1,0 +1,20 @@
+.itemBlock{
+    width: 300px;
+    height: 260px;
+    margin-bottom: 35px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    background: #ebe9e7;
+    align-items: center;
+}
+
+.img{
+    width: 280px;
+    height: 200px;
+}
+
+.txt{
+    color: black;
+    padding: 12px 0;
+}

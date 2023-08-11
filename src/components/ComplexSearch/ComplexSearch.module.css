@@ -1,0 +1,81 @@
+.ComplexSearchContainer{
+    background-image: url("./pexels-chan-walrus-958545.jpeg");
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 0 0;
+    height: 600px;
+}
+
+.input{
+    height: 35px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.submit{
+    border-radius: 10px;
+    background: #edb053;
+    color: black;
+    font-size: 15px;
+    border: 1px solid white;
+    width: 100px;
+    height: 30px;
+}
+
+.listOfParams{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+    height: 70px;
+}
+
+.text{
+    color: black;
+    font-size: 16px;
+}
+
+.filter{
+    border-radius: 10px;
+    background: #edb053;
+    color: black;
+    font-size: 15px;
+    border: 1px solid white;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+
+.img{
+    height: 15px;
+    width: 15px;
+}
+
+.filterWrapper{
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+}
+
+.filterBlock{
+    text-align: center;
+    background: #edb053;
+    border-radius: 10px;
+}
+
+.searchTxt{
+    font-size: 24px;
+    font-weight: bold;
+    color: #e4ebce;
+    text-align: center;
+    margin-bottom: 50px;
+}

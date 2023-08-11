@@ -1,0 +1,32 @@
+.recipesWrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.totalResults{
+    padding: 10px 0;
+    text-align: center;
+    background: grey;
+    border: 1px solid black;
+}
+
+.totalResults{
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-shadow: 2px 2px black;
+}
+
+.fw{
+    text-decoration: underline;
+}
+
+.mainWrapper{
+    padding: 0 23%;
+
+    background-image: url("https://thumbs.dreamstime.com/b/spices-chili-herbs-wooden-kitchen-table-background-top-view-mock-up-cooking-92913513.jpg");
+}
